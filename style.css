@@ -1,0 +1,143 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+h1{
+	font-family: 'Fjalla One', sans-serif;		
+	text-transform: uppercase;
+	margin:20px 0;
+	padding:0;
+	font-size: 60px;
+}
+h2{
+	font-family: 'Fjalla One', sans-serif;		
+	text-transform: uppercase;
+	margin:10px 0;
+	padding:0;
+	font-size: 35px;
+	font-weight: normal;
+}
+h3{
+	color: #f2674a;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+ul li{
+	list-style-type: none;
+}
+ul li:first-child{
+	margin: 20px 0;
+}
+ul li:last-child{
+	margin: 20px 0;
+}
+section{
+	padding: 50px 10%;
+}
+section.slide1{
+	background-color: #f3664a;
+	color: #fff;
+}
+section.slide1 ul {
+	margin-left: 22px;
+}
+section.slide1 a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+#bulb{
+	width: 90px;
+	right: 10%;
+	top: 80px;
+	position: absolute;
+	fill: #fdd8d0;
+}
+#loading-icon{
+	height: 75px;
+	fill: #fff;
+	margin-top: 5px;
+}
+#loading-icon2{
+	height: 75px;
+	fill: #f8b3a4;
+	margin-top: 5px;
+}
+.row{
+	 display: flex;
+	 justify-content: center;
+}
+.row .col-left{
+	width: 62px;
+	height: 100%;
+}
+.row .col-right{
+	width: 100%;
+}
+.clear-fix{
+	clear: both;
+}
+.row h2{
+	margin: 0;
+}
+.col{
+	width: auto;
+}
+#chart1, #chart2, #chart3{
+	width: 300px;
+}
+#chart3{
+	margin-top: -20px;
+}
+#chart-weekdays {
+	width: 100%;
+}
+#chart-weekdays-holidays {
+	width: 100%;
+}
+.ml-20{
+	margin-left: 80px;
+}
+.slide3{
+	background-color: #ffefef;
+	padding: 10% 0;
+}
+footer{
+	text-align: center;
+	padding: 10px;
+}
+.color1 {
+fill: #8dc63f;
+}
+
+.spacing,
+.fontsize {
+font-size: 46.42px;
+fill: #fff;
+}
+
+.moon,
+.fontsizenum,
+.spacing,
+.fontsize {
+font-family: MyriadPro-Regular, Myriad Pro;
+}
+
+.spacing {
+letter-spacing: -0.14em;
+}
+
+.fontsizenum {
+font-size: 25.28px;
+}
+
+.color2 {
+fill: #febb30;
+}
+
+.moon {
+font-size: 34.32px;
+}
